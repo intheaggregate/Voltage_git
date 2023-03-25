@@ -1,0 +1,33 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Bottom-decile scores}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+            &\multicolumn{1}{c}{low\_stpct}&\multicolumn{1}{c}{low\_stpct}&\multicolumn{1}{c}{low\_stpct}\\
+\hline
+low\_stpct   &                     &                     &                     \\
+religious   &       0.340\sym{***}&     -0.0740         &     -0.0859\sym{*}  \\
+            &    (0.0318)         &    (0.0396)         &    (0.0403)         \\
+[1em]
+ses\_index   &                     &      0.0252\sym{***}&      0.0249\sym{***}\\
+            &                     &   (0.00115)         &   (0.00116)         \\
+[1em]
+boy         &                     &       0.160\sym{***}&       0.160\sym{***}\\
+            &                     &    (0.0292)         &    (0.0292)         \\
+[1em]
+small       &                     &                     &     -0.0191         \\
+            &                     &                     &    (0.0974)         \\
+[1em]
+single      &                     &                     &      0.0906         \\
+            &                     &                     &    (0.0476)         \\
+[1em]
+\_cons      &      -2.183\sym{***}&      -2.550\sym{***}&      -2.551\sym{***}\\
+            &    (0.0166)         &    (0.0263)         &    (0.0263)         \\
+\hline
+\(N\)       &       51250         &       49895         &       49895         \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+\end{table}
